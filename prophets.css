@@ -15,6 +15,7 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap:15px;
     align-items: center;
+    justify-content: center;
     padding: 10px;
     background-color: #A4C5E0;
 }
@@ -36,6 +37,9 @@ section{
     border: 1px solid #003D5B;
     padding: 10px;
     box-shadow: 0 0 30px rgb(75, 75, 75);
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 p{
@@ -45,8 +49,9 @@ p{
 }
 
 section img{
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
+    
 
 }
 
