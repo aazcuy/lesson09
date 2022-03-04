@@ -49,3 +49,9 @@ section img{
     height: auto;
 
 }
+
+footer{
+    padding:15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
