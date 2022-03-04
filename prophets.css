@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap:15px;
+    align-items: center;
+    padding: 10px;
+    background-color: #A4C5E0;
+}
+
+h1{
+    color:#003D5B;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+    padding: 15px;
+    color:#003D5B;
+}
+
+section{
+    border: 1px solid #003D5B;
+    padding: 10px;
+    box-shadow: 0 0 30px rgb(75, 75, 75);
+}
+
+p{
+    color:#003D5B;
+    padding: 8px;
+
+}
+
+section img{
+    width: 100%;
+    height: auto;
+
+}
